@@ -6,10 +6,7 @@ const App = () => {
   
   const [message, setMessage] = React.useState('React Web Project');
 
-  const handleClick = () => {
-
-    setMessage("Welcome!");
-  }
+  const handleClick = () => setMessage("Welcome!");
 
   return (
   
